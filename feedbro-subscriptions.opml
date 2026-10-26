@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>FlowRead subscriptions</title>
+    <dateCreated>Mon, 26 Oct 2026 14:43:15 GMT</dateCreated>
+  </head>
+  <body>
+    <outline text="news" title="news">
+      <outline type="rss" text="Vox" title="Vox" xmlUrl="https://www.vox.com/rss/index.xml" htmlUrl="https://www.vox.com" />
+      <outline type="rss" text="国外新闻头条" title="国外新闻头条" xmlUrl="https://news.buzzing.cc/feed.xml" htmlUrl="https://news.buzzing.cc/feed.xml" />
+      <outline type="rss" text="奇客Solidot–传递最新科技情报" title="奇客Solidot–传递最新科技情报" xmlUrl="https://www.solidot.org/index.rss" htmlUrl="https://www.solidot.org" />
+      <outline type="rss" text="The Verge" title="The Verge" xmlUrl="https://www.theverge.com/rss/index.xml" htmlUrl="https://www.theverge.com" />
+    </outline>
+    <outline text="blogs" title="blogs">
+        </outline>
+    <outline text="weekly" title="weekly">
+          <outline type="rss" text="阮一峰的网络日志" title="阮一峰的网络日志" xmlUrl="http://www.ruanyifeng.com/blog/atom.xml" htmlUrl="http://www.ruanyifeng.com/blog/" />
+      <outline type="rss" text="Hacker News" title="Hacker News" xmlUrl="https://news.ycombinator.com/rss" htmlUrl="https://news.ycombinator.com/" />
+      <outline type="rss" text="Echo JS" title="Echo JS" xmlUrl="https://www.echojs.com/rss" htmlUrl="https://www.echojs.com" />
+      <outline type="rss" text="Frontend Focus" title="Frontend Focus" xmlUrl="https://frontendfoc.us/rss" htmlUrl="https://frontendfoc.us/" />
+      <outline type="rss" text="JavaScript Weekly" title="JavaScript Weekly" xmlUrl="https://javascriptweekly.com/rss/" htmlUrl="https://javascriptweekly.com/" />
+      <outline type="rss" text="React Status" title="React Status" xmlUrl="https://react.statuscode.com/rss" htmlUrl="https://react.statuscode.com/" />
+    </outline>
+  </body>
+</opml>

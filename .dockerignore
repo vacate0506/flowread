@@ -1,0 +1,10 @@
+node_modules
+dist
+dist-electron
+release
+.ref
+docs
+.git
+*.log
+apps/mobile/android
+apps/desktop/build/icon.png

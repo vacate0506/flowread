@@ -1,0 +1,51 @@
+{
+  "name": "FlowRead",
+  "short_name": "FlowRead",
+  "description": "跨平台 RSS 阅读器，支持 AI 摘要与翻译",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#ff5c00",
+  "categories": ["news", "productivity"],
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "订阅源",
+      "url": "/subscriptions",
+      "description": "管理订阅"
+    },
+    {
+      "name": "收藏",
+      "url": "/starred",
+      "description": "查看收藏文章"
+    }
+  ]
+}

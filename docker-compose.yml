@@ -1,0 +1,26 @@
+services:
+  flowread:
+    build: .
+    image: flowread:latest
+    container_name: flowread
+    restart: unless-stopped
+    ports:
+      - '8787:8787'
+    environment:
+      PORT: '8787'
+      HOST: '0.0.0.0'
+      WEB_DIR: '/app/apps/web/dist'
+      # Set to 1 only if you trust everyone who can reach this container.
+      ALLOW_PRIVATE_NETWORK: '0'
+    healthcheck:
+      test:
+        [
+          'CMD',
+          'node',
+          '-e',
+          "fetch('http://127.0.0.1:8787/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s

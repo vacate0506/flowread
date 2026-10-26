@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>FlowRead test feeds</title>
+  </head>
+  <body>
+    <outline text="科技" title="科技">
+      <outline type="rss" text="Solidot" title="Solidot" xmlUrl="https://www.solidot.org/index.rss" htmlUrl="https://www.solidot.org" />
+      <outline type="rss" text="国外新闻头条" title="国外新闻头条" xmlUrl="https://news.buzzing.cc/feed.xml" htmlUrl="https://news.buzzing.cc/" />
+      <outline type="rss" text="月球背面" title="月球背面" xmlUrl="https://moonvy.com/blog/rss.xml" htmlUrl="https://moonvy.com/blog" />
+    </outline>
+    <outline text="博客" title="博客">
+      <outline type="rss" text="Anthony Fu" title="Anthony Fu" xmlUrl="https://antfu.me/feed.xml" htmlUrl="https://antfu.me/" />
+      <outline type="rss" text="阮一峰的网络日志" title="阮一峰的网络日志" xmlUrl="http://www.ruanyifeng.com/blog/atom.xml" htmlUrl="http://www.ruanyifeng.com/blog/" />
+      <outline type="rss" text="React Status" title="React Status" xmlUrl="https://react.statuscode.com/rss" htmlUrl="https://react.statuscode.com/" />
+    </outline>
+  </body>
+</opml>

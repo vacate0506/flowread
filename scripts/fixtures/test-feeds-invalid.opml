@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>FlowRead invalid import test</title>
+  </head>
+  <body>
+    <outline text="Broken">
+      <outline
+        type="rss"
+        text="Broken Feed"
+        title="Broken Feed"
+        xmlUrl="https://invalid.example.invalid/rss.xml"
+        htmlUrl="https://invalid.example.invalid/"
+      />
+    </outline>
+  </body>
+</opml>
